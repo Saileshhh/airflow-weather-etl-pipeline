@@ -79,7 +79,7 @@ Writes the transformed data into PostgreSQL:
 
 #  DAG Code (Main Pipeline)
 
-Your real DAG (`etlweather.py`):
+
 
 ```python
 with DAG(dag_id='weather_etl_pipeline',
